@@ -1,3 +1,4 @@
+import { expect, test } from "bun:test";
 
 const { sumaArr,
     mayores,

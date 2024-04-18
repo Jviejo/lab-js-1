@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest --json --outputFile=output.json"
+    "test": "bun test 2>&1 | tee outfile.txt && bun upload.ts"
   },
   "keywords": [],
   "author": "",
